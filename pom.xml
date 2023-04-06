@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit</artifactId>
+  <artifactId>cs1632-cicd-junit-nam155</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -32,7 +32,15 @@
     <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
    </scm>
-
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-junit-nam155</url>
+    </repository>
+  </distributionManagement>
+  
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
